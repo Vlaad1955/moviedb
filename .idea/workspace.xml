@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviedb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-    </list>
+    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add MainLayout.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,11 +59,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709144265338</updated>
-      <workItem from="1709144266346" duration="2815000" />
+      <workItem from="1709144266346" duration="3424000" />
     </task>
+    <task id="LOCAL-00001" summary="add MainLayout.js">
+      <option name="closed" value="true" />
+      <created>1709147176498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709147176498</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add MainLayout.js">
+      <option name="closed" value="true" />
+      <created>1709147204532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709147204532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add MainLayout.js">
+      <option name="closed" value="true" />
+      <created>1709147242779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709147242779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add MainLayout.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MainLayout.js" />
   </component>
 </project>
