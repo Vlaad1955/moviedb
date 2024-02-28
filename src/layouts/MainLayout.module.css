@@ -1,0 +1,11 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.front{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+}
