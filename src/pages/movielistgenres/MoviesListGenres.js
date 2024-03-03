@@ -1,16 +1,14 @@
 import React from 'react';
 import Headergenre from "../../components/headergenre/Headergenre";
-import Genres from "../../components/genreContainer/Genres";
+import {Outlet} from "react-router-dom";
 
-const GenrePage = () => {
+const MoviesListGenres = () => {
     return (
         <div>
-        <div>
             <Headergenre/>
-            <Genres/>
-        </div>
+            <Outlet/>
         </div>
     );
 };
 
-export default GenrePage;
+export default MoviesListGenres;

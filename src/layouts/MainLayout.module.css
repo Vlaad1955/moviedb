@@ -6,6 +6,8 @@
 .front{
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    background-image: url('https://html5book.ru/wp-content/uploads/2015/05/svetlye_fony.jpg');
+    background-position: center;
+    background-repeat:repeat;
     font-family: Arial, sans-serif;
 }

@@ -4,33 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add MainLayout.js">
-      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genres.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/headergenre/HeaderGenre.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/headergenre/Headergenre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/apiService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/movieService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/moviesbygenreService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/genre/GenrePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add Genre.js">
+      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movies.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/service/renderStars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/service/renderStarsService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movielistgenres/MoviesListGenres.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/genreContainer/Genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/genreContainer/Genre.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/genreContainer/Genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/genreContainer/Genres.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headergenre/HeaderGenre.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headergenre/Headergenre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/headergenre/Headergenre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieContainer/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieContainer/Movie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieContainer/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieContainer/Movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service/moviesbygenreService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/moviesbygenreService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/genre/GenrePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +53,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -60,21 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/moviedb/src/components/movieContainer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/moviedb/src/components/movieContainer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\moviedb\src\components\movieContainer" />
@@ -94,7 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1709144265338</updated>
       <workItem from="1709144266346" duration="18125000" />
-      <workItem from="1709375839876" duration="10356000" />
+      <workItem from="1709375839876" duration="10609000" />
+      <workItem from="1709454320503" duration="2000" />
+      <workItem from="1709465807313" duration="3091000" />
+      <workItem from="1709469118802" duration="6000" />
+      <workItem from="1709469273673" duration="12411000" />
+      <workItem from="1709485738555" duration="163000" />
+      <workItem from="1709485917311" duration="2297000" />
+      <workItem from="1709489881484" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="add MainLayout.js">
       <option name="closed" value="true" />
@@ -120,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709147242779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Genre.js">
+      <option name="closed" value="true" />
+      <created>1709454121647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709454121647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add MainLayout.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MainLayout.js" />
+    <MESSAGE value="add Genre.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Genre.js" />
   </component>
 </project>

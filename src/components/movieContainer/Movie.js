@@ -1,18 +1,31 @@
 import React from 'react';
-import {useNavigate} from "react-router-dom";
-import css from "../genreContainer/Genre.module.css"
+import { useNavigate } from 'react-router-dom';
+import { IMG_URL } from '../../constants/urls';
+import Rating from '../service/renderStarsService';
+import css from './Movie.module.css';
 
-const Movie = ({movie}) => {
-    const { title, vote_average, poster_path, id} = movie;
-    const navigate = useNavigate();
-    return (
-        <div className={css.movie}>
-            <div>Назва {title}</div>
-            <div>Рейтінг {vote_average}</div>
-            <img src = {poster_path} alt = {title} />
-            <button onClick={() => navigate("/mv", { state: {id} })}>Детальніше</button>
+const Movie = ({ movie }) => {
+  const { title, vote_average, poster_path, id, release_date } = movie;
+  const navigate = useNavigate();
+
+  const handleInfo = () => {
+    navigate('/mv', { state: { id } });
+  };
+
+  return (
+      <div className={css.cardstyle} >
+        <div onClick={handleInfo}>
+          <div className={css.content}>
+            <img className={css.poster} src={`${IMG_URL}/${poster_path}`} alt={title} />
+            <h1>Назва {title}</h1>
+            <p>{release_date}</p>
+            <div>
+              <Rating rating={vote_average} />
+            </div>
+          </div>
         </div>
-    );
+      </div>
+  );
 };
 
 export default Movie;

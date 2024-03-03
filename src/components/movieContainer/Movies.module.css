@@ -1,20 +1,11 @@
-.header {
-    background-color: #fff;
-    padding: 10px;
+.page{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #333;
-    border-radius: 5px;
-}
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-.buttons {
-    display: flex;
+    flex-wrap: wrap;
 }
 .button {
+    margin-top: 10px;
     margin-left: 10px;
     padding: 5px 10px;
     background-color: #333;

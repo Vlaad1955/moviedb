@@ -3,7 +3,7 @@ import MoviesListPage from "./pages/movieslistpage/MoviesListPage";
 import {createBrowserRouter} from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import MoviesListCards from "./pages/movieslistcards/MoviesListCards";
-import GenrePage from "./pages/genre/GenrePage";
+import MoviesListGenres from "./pages/movielistgenres/MoviesListGenres";
 import Genres from "./components/genreContainer/Genres";
 
 
@@ -18,7 +18,11 @@ const router =
                 path: "mv", element:<MoviesListCards/>
             },
             {
-                path: "genre", element: <GenrePage/>
+                path:"gen", element:<MoviesListGenres/>, children:[
+                    {
+                        path:"/gen/:idgenre", element:<Genres/>
+                    }
+                ]
             },
         ]
     }

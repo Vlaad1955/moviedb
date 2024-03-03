@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import css from "./MoviesListCards.module.css"
 import {useLocation} from "react-router-dom";
 import movieService from "../../components/service/movieService";
 import MovieInfo from "../../components/movieInfoContainer/MovieInfo";
@@ -15,7 +14,7 @@ const MoviesListCards = () => {
     }, [id]);
 
     return (
-        <div className={css.detal}>
+        <div>
             {movie && <MovieInfo movie = {movie}/>}
         </div>
     );

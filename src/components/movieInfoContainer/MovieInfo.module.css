@@ -1,0 +1,41 @@
+.movieInfo {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Займає всю висоту вікна */
+}
+
+.poster {
+    margin-left: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textInfo {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.releaseDate {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
