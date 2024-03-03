@@ -1,11 +1,13 @@
 import React from 'react';
 import css from "../header/Header.module.css";
 import {NavLink} from "react-router-dom";
+import {useTheme} from "../../context/Context";
 
 const Headergenre = () => {
+    const { darkTheme } = useTheme();
 
     return (
-        <div className={css.header}>
+        <div className={`${css.header} ${darkTheme ? css.active : ""}`}>
             <div className={css.logo}>Жанри</div>
             <div className={css.buttons}>
                 <NavLink to="/gen/12" className={css.button} >

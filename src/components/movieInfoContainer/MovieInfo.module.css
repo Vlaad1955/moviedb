@@ -8,6 +8,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 100vh; /* Займає всю висоту вікна */
 }
+.active {
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
 
 .poster {
     margin-left: auto;

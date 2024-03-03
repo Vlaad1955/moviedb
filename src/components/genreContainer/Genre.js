@@ -1,10 +1,12 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
-import css from "../movieContainer/Movie.module.css";
+import css from "./Genre.module.css";
 import {IMG_URL} from "../../constants/urls";
 import Rating from "../service/renderStarsService";
+import {useTheme} from "../../context/Context";
 
 const Genre = ({movie}) => {
+    const { darkTheme } = useTheme();
     const { title, vote_average, poster_path, id, release_date } = movie;
     const navigate = useNavigate();
 
@@ -13,7 +15,7 @@ const Genre = ({movie}) => {
     };
 
     return (
-        <div className={css.cardstyle}>
+        <div className={`${css.cardstyle} ${darkTheme ? css.active : ""}`}>
             <div onClick={handleInfo}>
                 <div className={css.content}>
                     <img className={css.poster} src={`${IMG_URL}/${poster_path}`} alt={title} />

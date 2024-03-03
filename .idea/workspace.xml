@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add Genre.js">
+    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add Genres.js">
+      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/genreContainer/Genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/genreContainer/Genres.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/genreContainer/Genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieContainer/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieContainer/Movie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,7 @@
       <workItem from="1709469273673" duration="12411000" />
       <workItem from="1709485738555" duration="163000" />
       <workItem from="1709485917311" duration="2297000" />
-      <workItem from="1709489881484" duration="8320000" />
+      <workItem from="1709489881484" duration="10823000" />
     </task>
     <task id="LOCAL-00001" summary="add MainLayout.js">
       <option name="closed" value="true" />
@@ -125,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709492882917</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Genres.js">
+      <option name="closed" value="true" />
+      <created>1709498957560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709498957560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add MainLayout.js" />
     <MESSAGE value="add Genre.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Genre.js" />
+    <MESSAGE value="add Genres.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Genres.js" />
   </component>
 </project>

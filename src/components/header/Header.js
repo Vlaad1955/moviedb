@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import css from "./Header.module.css";
 import { Link, NavLink } from "react-router-dom";
+import {useTheme} from "../../context/Context";
 
-const Header = ({onToggleActive}) => {
-    const [isActive, setIsActive] = useState(false);
-
-    const toggleActive = () => {
-        setIsActive(!isActive);
-    };
+const Header = () => {
+    const { darkTheme } = useTheme();
+    const { toggleTheme } = useTheme();
   return (
-    <div className={`${css.header} ${isActive ? css.active : ""}`}>
+      <div className={`${css.header} ${darkTheme ? css.active : ""}`}>
       <div className={css.logo}>Vlad film</div>
       <div className={css.buttons}>
         <NavLink to={`/mvs`}  className={css.button}>
@@ -18,7 +16,7 @@ const Header = ({onToggleActive}) => {
           <NavLink to={`/gen`}  className={css.button}>
               Жанри
           </NavLink>
-          <button className={css.button} onClick={toggleActive}>Змінити тему</button>
+          <button className={css.button} onClick={toggleTheme}>Змінити тему</button>
       </div>
       <div className={css.usericon}>
         <img
