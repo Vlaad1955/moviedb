@@ -30,7 +30,6 @@ const Genres = () => {
 
     // Фільтрація фільмів за жанром
     const moviesByGenre = moviesbygenreService({ movies, idgenre });
-    console.log(idgenre);
 
     return (
         <div>

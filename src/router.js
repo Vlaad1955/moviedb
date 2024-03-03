@@ -12,6 +12,9 @@ const router =
     {
         path: ``, element:<MainLayout/>, children: [
             {
+                path: "", element:<MoviesListPage/>
+            },
+            {
                 path: "mvs", element: <MoviesListPage/>
             },
             {
@@ -19,6 +22,9 @@ const router =
             },
             {
                 path:"gen", element:<MoviesListGenres/>, children:[
+                    {
+                        path:"", element: <MoviesListPage/>
+                    },
                     {
                         path:"/gen/:idgenre", element:<Genres/>
                     }

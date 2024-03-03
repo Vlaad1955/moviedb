@@ -3,11 +3,11 @@ import css from "./Header.module.css";
 import { Link, NavLink } from "react-router-dom";
 
 const Header = ({onToggleActive}) => {
-  const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(false);
 
-  const toggleActive = () => {
-    setIsActive(!isActive);
-  };
+    const toggleActive = () => {
+        setIsActive(!isActive);
+    };
   return (
     <div className={`${css.header} ${isActive ? css.active : ""}`}>
       <div className={css.logo}>Vlad film</div>
