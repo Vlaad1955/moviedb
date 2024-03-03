@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add MainLayout.js" />
+    <list default="true" id="6b1a93ae-b7b7-40b5-99bc-5e3d8db272ba" name="Changes" comment="add MainLayout.js">
+      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/genreContainer/Genres.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/headergenre/HeaderGenre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/headergenre/Headergenre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movie.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movieContainer/Movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movieInfoContainer/MovieInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/service/apiService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/service/movieService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/service/moviesbygenreService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/genre/GenrePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movieslistcards/MoviesListCards.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieslistpage/MoviesListPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +51,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2d0U04Ca3heER7BYZSPCMjOSwkW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,7 +65,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/moviedb/src/components/movieContainer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,7 +76,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\moviedb\src\components\movieContainer" />
+      <recent name="C:\Users\User\IdeaProjects\moviedb\src\components\headergenre" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\moviedb\src\components\genreContainer" />
       <recent name="C:\Users\User\IdeaProjects\moviedb\src\pages\movieslistpage" />
     </key>
   </component>
@@ -59,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709144265338</updated>
-      <workItem from="1709144266346" duration="3424000" />
+      <workItem from="1709144266346" duration="18125000" />
+      <workItem from="1709375839876" duration="10356000" />
     </task>
     <task id="LOCAL-00001" summary="add MainLayout.js">
       <option name="closed" value="true" />

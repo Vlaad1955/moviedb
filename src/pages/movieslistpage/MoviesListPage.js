@@ -1,10 +1,11 @@
 import React from 'react';
-import css from "./MoviesListPage.module.css";
+import Movies from "../../components/movieContainer/Movies";
+import css  from "./MoviesListPage.module.css"
 
 const MoviesListPage = () => {
     return (
-        <div className={css.main}>
-
+        <div className={css.maincontent}>
+            <Movies/>
         </div>
     );
 };
